@@ -1,0 +1,44 @@
+.container{
+            height: 24rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.holder{
+            display: flex;
+            flex-direction: column;
+}
+
+.hero{
+        position: relative;
+        left: 38%;
+        top: 30px;
+}
+
+.holder input[type="text"]{
+            height: 30px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            border-bottom: 2px solid green;
+}
+
+.holder input[type="submit"]{
+            display: block;
+            height: 32px;
+            font-size: 20px;
+            color: white;
+            border: 1px solid black;
+            width: 250px;
+            outline: none;
+            background: crimson;
+}
+
+.footer{
+            position: relative;
+            left: 580px;
+            top: 50px;
+        }
